@@ -8,7 +8,8 @@
 }
 
 body{
-    font-family: Roboto, sans-serif;
+    font-family: "Lexend", sans-serif;
+    padding-left: 32px;
 }
 
 
@@ -30,7 +31,6 @@ header nav ul{
 
 .logo-holder{
     float: left;
-    padding-left: 32px;
     padding-top: 29px;
     transition: .5s;
 }
@@ -46,8 +46,7 @@ header .logo-holder:hover{
 .main-menu-item{
     max-height: 66px;
     display: inline-block;
-    margin: 5px 32px 8px 0px;
-
+    margin: 5px 12px 8px 0px;
 }
 
 .nav-row{
@@ -118,27 +117,53 @@ header .logo-holder:hover{
 .reg-log{
     text-decoration: none;
     color: black;
+
 }
 
 .log-in{
     display: inline-block;
     padding: 7px 10px;
     color: black;
-    transition: 1s;
     border: solid 2px;
     border-radius: 10px;
-    margin: 0px 10px 8px 0px;
+    margin: 0 10px 8px 0;
+    transition: 0.35s;
+}
 
+.log-in:hover{
+    transform: scale(1.2);
 }
 
 .sign-up{
     display: inline-block;
     padding: 7px 10px;
     color: black;
-    transition: 1s;
-    border: solid 2px;
+    border: solid 2px #4CFDC7;
     border-radius: 10px;
     margin: 0px 32px 8px 0px;
     background-color: #4CFDC7;
-    border-color: #4CFDC7;
+    transition: 0.35s;
+}
+
+.sign-up:hover{
+    transform: scale(1.2);
+}
+
+#main{
+    display: inline-block;
+    padding-right: 32px;
+    width: 70%;
+}
+
+#main h1{
+    padding-top: 170px;
+    font-size: 100px;
+}
+
+#main h2{
+    padding: 32px 0px;
+}
+
+.hui{
+    margin-bottom: 0;
 }
