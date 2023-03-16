@@ -106,7 +106,6 @@ header .logo-holder:hover{
 }
 
 .vect-img{
-    margin-bottom: 3px;
     height: 9px;
 }
 
@@ -152,7 +151,6 @@ header .logo-holder:hover{
 #main{
     display: inline-block;
     padding-right: 32px;
-    width: 70%;
 }
 
 #main h1{
@@ -162,4 +160,32 @@ header .logo-holder:hover{
 
 #main h2{
     padding: 32px 0px;
+    font-size: 25px;
+}
+
+
+.main-phone {
+    display: block;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 10%;
+    width: 18%;
+}
+
+#main a {
+    display: inline-block;
+    margin: 3% 2% 1.5% 0;
+    font-size: 20px;
+    padding: 1.5% 4%;
+}
+
+#main img {
+    padding: 0 0.3%;
+}
+
+#main span {
+    margin-left: 10px;
+    font-size: 18px;
 }
