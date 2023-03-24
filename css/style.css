@@ -9,7 +9,26 @@
 
 body{
     font-family: "Lexend", sans-serif;
-    padding-left: 32px;
+    padding: 0 32px;
+}
+
+button{
+    font-family: "Lexend", sans-serif;
+}
+
+h2{
+    padding: 32px 0px;
+    font-size: 46px;
+}
+
+h3{
+    padding: 32px 0px;
+    font-size: 25px;
+}
+
+h4{
+    padding: 12px 0px 24px 0;
+    font-size: 16px;
 }
 
 
@@ -158,18 +177,11 @@ header .logo-holder:hover{
     font-size: 100px;
 }
 
-#main h2{
-    padding: 32px 0px;
-    font-size: 25px;
-}
-
-
 .main-phone {
     display: block;
-    float: right;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 0%;
+    bottom: 0%;
     margin-right: 10%;
     width: 18%;
 }
@@ -188,4 +200,152 @@ header .logo-holder:hover{
 #main span {
     margin-left: 10px;
     font-size: 18px;
+}
+
+.crypto__list{
+    margin: 20% 7% 0 7%;
+    width: calc(100% - 256px);
+}
+
+.crypto__table{
+    width: 100%;
+    border-collapse: separate;
+    background-color: #F7F7F7;
+    border-radius: 15px;
+}
+
+.crypto__table__variants td{
+    padding: 1.25%;
+}
+
+.variant-left{
+    text-align: right;
+}
+
+.variant-right{
+    text-align: left;
+}
+
+.names__columns td{
+    width: 10%;
+}
+
+.crypto__table tr td{
+    padding: 1%;
+    border-bottom: 2px solid gray;
+
+}
+
+.crypto__table tr td span{
+    display: block;
+}
+
+.crypto__button__buy{
+    margin-left: 5%;
+    padding: 12% 18%;
+    color: black;
+    border: solid 2px #4CFDC7;
+    border-radius: 15%;
+    background-color: #4CFDC7;
+    transition: 0.35s;
+}
+
+.crypto__button__buy:hover{
+    transform: scale(1.2);
+}
+
+.str sup{
+    color: gray;
+}
+
+
+.value__up{
+    color: green;
+}
+
+.value__down{
+    color: red;
+}
+
+.crypto__table__bottom{
+    text-align: center;
+    text-decoration: none;
+}
+
+.all__markets{
+    height: 50px;
+    width: 125px;
+}
+
+.crypto__table__bottom span a{
+    color: black;
+    text-decoration: none;
+}
+
+.why__BTC{
+    margin: 10% 0 0 0;
+}
+
+.why__flex__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.why__title{
+    text-align: center;
+    margin: 5% 0;
+}
+
+.why__content{
+    text-align: center;
+    width: 15%;
+}
+
+.TRADE{
+    margin: 15% 0 0 0;
+}
+
+.TRADE__left{
+    width: 50%;
+}
+
+.TRADE__right{
+    float: right;
+    width: 50%
+}
+
+.TRADE h2{
+    width: 90%;
+}
+
+.TRADE__left__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TRADE__left__content{
+    margin-bottom: 10%;
+    margin-right: 7%;
+    font-size: 15px;
+    text-align: left;
+    width: 300px;
+}
+
+.WALLET__left{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.WALLET__right__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.WALLET__right__content{
+    margin-bottom: 10%;
+    margin-right: 7%;
+    font-size: 15px;
+    text-align: left;
+    width: 300px;
 }
