@@ -70,21 +70,23 @@
             <div id="main">
                 <div class="main__container">
                     <div class="main__left">
-                        <h1>Buy, sell and trade<br>crypto today </h1>
-                        <h3>Trade with confidence and build your future<br>with Australia's fastest crypto exchange</h3>
-                        <a href="#" class="sign-up">Get started</a>
-                        <a href="#" class="log-in">View exchange</a>
-                        <br>
-                        <img src="image/google.svg" alt="Картинка Google" class="google-pic">
-                        <img src="image/filled_star.png" alt="Звёздочка">
-                        <img src="image/filled_star.png" alt="Звёздочка">
-                        <img src="image/filled_star.png" alt="Звёздочка">
-                        <img src="image/filled_star.png" alt="Звёздочка">
-                        <img src="image/half_star.png" alt="Пол звёздочки">
-                        <span>4.6</span>
+                        <div id="content"></div><h1 class="element-animation main__h">Buy, sell and trade<br>crypto today </h1>
+                        <h3 class="element-animation main__txt">Trade with confidence and build your future<br>with Australia's fastest crypto exchange</h3>
+                        <a href="#" class="sign-up element-animation">Get started</a>
+                        <a href="#" class="log-in element-animation">View exchange</a>
+                        <div class="main__rating element-animation">
+                            <img src="image/google.svg" alt="Картинка Google" class="google-pic">
+                            <img src="image/filled_star.png" alt="Звёздочка">
+                            <img src="image/filled_star.png" alt="Звёздочка">
+                            <img src="image/filled_star.png" alt="Звёздочка">
+                            <img src="image/filled_star.png" alt="Звёздочка">
+                            <img src="image/half_star.png" alt="Пол звёздочки">
+                            <span>4.6</span>
+                        </div>
+
                     </div>
                     <div class="main__right">
-                        <img src="image/phone.jpg" alt="Приложение" class="main-phone">
+                        <img src="image/phone.jpg" alt="Приложение" class="main-phone element-animation">
                     </div>
 
                 </div>
@@ -97,120 +99,98 @@
 
         <section class="crypto__list">
             <div>
-                <table class="crypto__table">
-                    <tr class="crypto__table__variants str">
-                        <td colspan="5" class="variant-left">Most Popular</td>
-                        <td colspan="5" class="variant-right">Top Movers</td>
-                    </tr>
-                    <tr class="names__columns str">
-                        <td>Asset</td>
-                        <td></td>
-                        <td>Last Price</td>
-                        <td></td>
-                        <td>24hr Change</td>
-                        <td></td>
-                        <td>Market Cap</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr class="crypto__rows str">
-                        <td><img src="image/XRP.png" alt=""><span>XRP</span></td>
-                        <td></td>
-                        <td><span>$0.5657 <sup>AUD</sup></span></td>
-                        <td></td>
-                        <td>
-                            <span class="value__up">1.57% <img src="image/pointer.svg" alt="pointer"></span>
-                        </td>
-                        <td></td>
-                        <td><span>$28B</span></td>
-                        <td></td>
-                        <td></td>
-                        <td><a href="#"><button class="crypto__button__buy">Buy</button></a></td>
-                    </tr>
-                    <tr class="crypto__rows str">
-                        <td><img src="image/BTC.png" alt=""><span>Bitcoin</span></td>
-                        <td></td>
-                        <td><span>$30,165.43 <sup>AUD</sup></span></td>
-                        <td></td>
-                        <td>
-                            <span class="value__down">-0.08 <img src="image/pointer.svg" alt=""></span>
-                        </td>
-                        <td></td>
-                        <td><span>$582B</span></td>
-                        <td></td>
-                        <td></td>
-                        <td><a href="#"><button class="crypto__button__buy">Buy</button></a></td>
-                    </tr>
-                    <tr class="crypto__rows str">
-                        <td><img src="image/Ether.png" alt=""><span>Ethereum</span></td>
-                        <td></td>
-                        <td><span>$2,215.50 <sup>AUD</sup></span></td>
-                        <td></td>
-                        <td><span class="value__down">-1.08% <img src="image/pointer.svg" alt=""></span></td>
-                        <td></td>
-                        <td><span>$267B</span></td>
-                        <td></td>
-                        <td></td>
-                        <td><a href="#"><button class="crypto__button__buy">Buy</button></a></td>
-                    </tr>
-                    <tr class="crypto__rows str">
-                        <td><img src="image/Tether.png" alt=""><span>Tether</span></td>
-                        <td></td>
-                        <td><span>$1.4544 <sup>AUD</sup></span></td>
-                        <td></td>
-                        <td><span class="value__up">2.36% <img src="image/pointer.svg" alt=""></span></td>
-                        <td></td>
-                        <td><span>$96B</span></td>
-                        <td></td>
-                        <td></td>
-                        <td><a href="#"><button class="crypto__button__buy">Buy</button></a></td>
-                    </tr>
-                    <tr class="crypto__rows str">
-                        <td><img src="image/Enjin.png" alt=""><span>Enjin Coin</span></td>
-                        <td></td>
-                        <td><span>$0.6129 <sup>AUD</sup></span></td>
-                        <td></td>
-                        <td><span class="value__up">2.36% <img src="image/pointer.svg" alt=""></span></td>
-                        <td></td>
-                        <td><span>$629M</span></td>
-                        <td></td>
-                        <td></td>
-                        <td><a href="#"><button class="crypto__button__buy">Buy</button></a></td>
-                    </tr>
-                    <tr>
-                        <td colspan="10" class="crypto__table__bottom">
-                            <img src="image/all_crypto_markets.jpg" alt="" class="all__markets">
-                            <span>
+                <div class="crypto__tittle__container">
+                    <div class="crypto__tittle__content">
+                        <button>Most Popular</button>
+                    </div>
+                    <div class="crypto__tittle__content">
+                        <button>Top Movers</button>
+                    </div>
+                </div>
+                <div class="table__scroll">
+                    <table class="crypto__table">
+
+                        <tr class="names__columns str">
+                            <td class="table__block">Asset</td>
+                            <td class="table__block">Last Price</td>
+                            <td class="table__block">24hr Change</td>
+                            <td class="table__block">Market Cap</td>
+                            <td class="table__block"></td>
+                        </tr>
+                        <tr class="crypto__rows str">
+                            <td><img src="image/XRP.png" alt=""><span>XRP</span></td>
+                            <td><span>$0.5657 <sup>AUD</sup></span></td>
+                            <td>
+                                <span class="value__up">1.57% <img src="image/pointer.svg" alt="pointer"></span>
+                            </td>
+                            <td><span>$28B</span></td>
+                            <td><a href="#"><button class="crypto__button__buy">Buy</button></a></td>
+                        </tr>
+                        <tr class="crypto__rows str">
+                            <td><img src="image/BTC.png" alt=""><span>Bitcoin</span></td>
+                            <td><span>$30,165.43 <sup>AUD</sup></span></td>
+                            <td>
+                                <span class="value__down">-0.08 <img src="image/pointer.svg" alt=""></span>
+                            </td>
+                            <td><span>$582B</span></td>
+                            <td><a href="#"><button class="crypto__button__buy">Buy</button></a></td>
+                        </tr>
+                        <tr class="crypto__rows str">
+                            <td><img src="image/Ether.png" alt=""><span>Ethereum</span></td>
+                            <td><span>$2,215.50 <sup>AUD</sup></span></td>
+                            <td><span class="value__down">-1.08% <img src="image/pointer.svg" alt=""></span></td>
+                            <td><span>$267B</span></td>
+                            <td><a href="#"><button class="crypto__button__buy">Buy</button></a></td>
+                        </tr>
+                        <tr class="crypto__rows str">
+                            <td><img src="image/Tether.png" alt=""><span>Tether</span></td>
+                            <td><span>$1.4544 <sup>AUD</sup></span></td>
+                            <td><span class="value__up">2.36% <img src="image/pointer.svg" alt=""></span></td>
+                            <td><span>$96B</span></td>
+                            <td><a href="#"><button class="crypto__button__buy">Buy</button></a></td>
+                        </tr>
+                        <tr class="crypto__rows str">
+                            <td><img src="image/Enjin.png" alt=""><span>Enjin Coin</span></td>
+                            <td><span>$0.6129 <sup>AUD</sup></span></td>
+                            <td><span class="value__up">2.36% <img src="image/pointer.svg" alt=""></span></td>
+                            <td><span>$629M</span></td>
+                            <td><a href="#"><button class="crypto__button__buy">Buy</button></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="10" class="crypto__table__bottom">
+                                <img src="image/all_crypto_markets.jpg" alt="" class="all__markets">
+                                <span>
                                 <a href="#">
                                     View all markets
                                 </a>
                                 <img src="image/right_pointer.png" alt="">
                             </span>
-                        </td>
-                    </tr>
+                            </td>
+                        </tr>
 
-                </table>
+                    </table>
+                </div>
+
             </div>
         </section>
 
 
         <section class="why__BTC">
             <div class="why__title">
-                <h2>WHY BTC MARKET?</h2>
+                <h2 class="element-animation WHY__title">WHY BTC MARKET?</h2>
             </div>
             <div class="why__flex__container">
-                <div class="why__content">
+                <div class="why__content element-animation">
                     <img src="image/security.png" alt="">
                     <h3>Security</h3>
                     <div class="why__content__text">Multiple layers of account security, 2FA, address whitelisting, Biometrics.</div>
                 </div>
-                <div class="why__content">
+                <div class="why__content element-animation">
                     <img src="image/speed.png" alt="">
                     <h3>Speed</h3>
                     <div class="why__content__text">Fast trade executions with an industry leading uptime of 99.99%.</div>
                 </div>
-                <div class="why__content">
+                <div class="why__content element-animation">
                     <img src="image/support.png" alt="">
                     <h3>Support</h3>
                     <div class="why__content__text">100% Australian-based customer support, OTC desk and VIP Program.</div>
@@ -219,34 +199,38 @@
         </section>
 
         <section class="TRADE">
-            <div class="TRADE__right">
-                <img src="image/TRADE_picture.jpg" alt="">
-            </div>
-            <div class="TRADE__left">
-                <div>TRADE</div>
-                <h2>Buy, sell and trade crypto with confidence</h2>
-                <div class="TRADE__left__container">
-                    <div class="TRADE__left__content">
-                        <img src="image/TRADE_mini_pic_1.png" alt="">
-                        <h4>Simple buy & sell options</h4>
-                        <div>Buy and sell cryptocurrency quickly and easily.</div>
-                    </div>
-                    <div class="TRADE__left__content">
-                        <img src="image/TRADE_mini_pic_2.png" alt="">
-                        <h4>Advanced trading</h4>
-                        <div>Access advanced order types including limit, market, stop limit and dollar cost averaging.</div>
-                    </div>
-                    <div class="TRADE__left__content">
-                        <img src="image/TRADE_mini_pic_3.png" alt="">
-                        <h4>Portfolio tracking</h4>
-                        <div>Track your total asset holdings, values and equity over time.</div>
-                    </div>
-                    <div class="TRADE__left__content">
-                        <img src="image/TRADE_mini_pic_4.png" alt="">
-                        <h4>Mobile app</h4>
-                        <div>Monitor markets, manage your portfolio, and trade crypto on the go.</div>
+            <div class="TRADE__main__container">
+
+                <div class="TRADE__left element-animation">
+                    <div>TRADE</div>
+                    <h2>Buy, sell and trade crypto with confidence</h2>
+                    <div class="TRADE__left__container">
+                        <div class="TRADE__left__content">
+                            <img src="image/TRADE_mini_pic_1.png" alt="">
+                            <h4>Simple buy & sell options</h4>
+                            <div>Buy and sell cryptocurrency quickly and easily.</div>
+                        </div>
+                        <div class="TRADE__left__content">
+                            <img src="image/TRADE_mini_pic_2.png" alt="">
+                            <h4>Advanced trading</h4>
+                            <div>Access advanced order types including limit, market, stop limit and dollar cost averaging.</div>
+                        </div>
+                        <div class="TRADE__left__content">
+                            <img src="image/TRADE_mini_pic_3.png" alt="">
+                            <h4>Portfolio tracking</h4>
+                            <div>Track your total asset holdings, values and equity over time.</div>
+                        </div>
+                        <div class="TRADE__left__content">
+                            <img src="image/TRADE_mini_pic_4.png" alt="">
+                            <h4>Mobile app</h4>
+                            <div>Monitor markets, manage your portfolio, and trade crypto on the go.</div>
+                        </div>
+
                     </div>
 
+                </div>
+                <div class="TRADE__right element-animation">
+                    <img src="image/TRADE_picture.jpg" alt="">
                 </div>
             </div>
 
@@ -255,10 +239,10 @@
         <section class="WALLET">
 
             <div class="WALLET__full">
-                <div class="WALLET__left">
+                <div class="WALLET__left element-animation">
                     <img src="image/WALLET_main_pic.png" alt="">
                 </div>
-                <div class="WALLET__right">
+                <div class="WALLET__right element-animation">
                         WALLET
                         <h2>Simple and secure wallet services</h2>
                         <div class="WALLET__right__container">
@@ -284,6 +268,7 @@
                             </div>
 
                         </div>
+
                 </div>
             </div>
 
@@ -291,67 +276,75 @@
 
         <section class="vip__program">
             <div class="vip__program__full">
-                <div class="vip__program__title">
-                    <p>VIP Program</p>
-                    <h2>When you need more than just a crypto exchange</h2>
-                </div>
-                <p>Access world-class APIs, a lower fee structure and a dedicated Account Manager.</p>
-                <div class="vip__program__container">
-                    <div class="vip__program__content">
-                        <img src="image/vip__program__1.png" alt="">
-                        <h4>API integrations</h4>
+                <div class="element-animation vip__program__start">
+                    <div class="vip__program__title">
+                        <p>VIP Program</p>
+                        <h2>When you need more than just a crypto exchange</h2>
                     </div>
-                    <div class="vip__program__content">
-                        <img src="image/vip__program__2.png" alt="">
-                        <h4>Lower fees</h4>
-                    </div>
-                    <div class="vip__program__content">
-                        <img src="image/vip__program__3.png" alt="">
-                        <h4>Dedicated Account Manager</h4>
-                    </div>
+                    <p>Access world-class APIs, a lower fee structure and a dedicated Account Manager.</p>
+                    <div class="vip__program__container">
+                        <div class="vip__program__content">
+                            <img src="image/vip__program__1.png" alt="">
+                            <h4>API integrations</h4>
+                        </div>
+                        <div class="vip__program__content">
+                            <img src="image/vip__program__2.png" alt="">
+                            <h4>Lower fees</h4>
+                        </div>
+                        <div class="vip__program__content">
+                            <img src="image/vip__program__3.png" alt="">
+                            <h4>Dedicated Account Manager</h4>
+                        </div>
 
+                    </div>
+                    <div class="vip__program__href">
+                        <a href="#">
+                            <h4 class="vip__program__button">
+                                LEARN MORE
+                            </h4>
+                        </a>
+                    </div>
                 </div>
-                <div class="vip__program__href">
-                    <a href="#">
-                        <h4 class="vip__program__button">
-                            LEARN MORE
-                        </h4>
-                    </a>
+                <div class="vip__program__pic element-animation">
+                    <img src="image/vip-image.jpg" alt="" class="vip__program__img">
                 </div>
-                <img src="image/vip-image.jpg" alt="" class="vip__program__img">
+
             </div>
 
         </section>
 
         <section class="easy__steps">
-            <div class="easy__steps__title">
-                <h2>Start trading in 3 easy steps</h2>
+            <div class="easy__animation element-animation">
+                <div class="easy__steps__title">
+                    <h2>Start trading in 3 easy steps</h2>
+                </div>
+                <div class="easy__steps__container">
+                    <div class="easy__steps__content">
+                        <img src="image/easy__steps__1.png" alt="">
+                        <h3>1. Create</h3>
+                        <div>Sign up and verify your free account.</div>
+                    </div>
+                    <div class="easy__steps__content">
+                        <img src="image/easy__steps__2.png" alt="">
+                        <h3>2. Deposit</h3>
+                        <div>Add AUD or crypto to your wallet using our secure methods.</div>
+                    </div>
+                    <div class="easy__steps__content">
+                        <img src="image/easy__steps__3.png" alt="">
+                        <h3>3. Trade</h3>
+                        <div>You’re all set. Buy, sell and trade crypto immediately.</div>
+                    </div>
             </div>
-            <div class="easy__steps__container">
-                <div class="easy__steps__content">
-                    <img src="image/easy__steps__1.png" alt="">
-                    <h3>1. Create</h3>
-                    <div>Sign up and verify your free account.</div>
-                </div>
-                <div class="easy__steps__content">
-                    <img src="image/easy__steps__2.png" alt="">
-                    <h3>2. Deposit</h3>
-                    <div>Add AUD or crypto to your wallet using our secure methods.</div>
-                </div>
-                <div class="easy__steps__content">
-                    <img src="image/easy__steps__3.png" alt="">
-                    <h3>3. Trade</h3>
-                    <div>You’re all set. Buy, sell and trade crypto immediately.</div>
-                </div>
+
 
             </div>
             <div class="easy__steps__under">
                 <a href="#">
-                    <h4 class="easy__steps__under__href">
+                    <h4 class="easy__steps__under__href element-animation">
                         Get started
                     </h4>
                 </a>
-                <div class="easy__steps__google">
+                <div class="easy__steps__google element-animation">
                     <div class="easy__steps__google__logo">
                         <img src="image/google.svg" alt="Картинка Google" class="google-pic">
                     </div>
@@ -371,7 +364,7 @@
         </section>
 
 
-        <section class="trade">
+        <section class="trade element-animation">
             <div class="trade__content">
                 <h2>Trade on the go</h2>
                 <h4>Place simple and advanced trades on the go with the BTC Markets app. You can also manage your portfolio, monitor prices, and track market movements, anywhere, anytime.</h4>
@@ -409,7 +402,7 @@
                 <h2>Find out the latest crypto news</h2>
             </div>
             <div class="last__news__container">
-                <div class="last__news__content">
+                <div class="last__news__content element-animation">
                     <img src="image/news__1.jpg" alt="">
                     <div class="last__news__content__underimg">
                         <h5 class="h5__border">Newsletter</h5>
@@ -422,7 +415,7 @@
 
                 </div>
 
-                <div class="last__news__content">
+                <div class="last__news__content element-animation">
                     <img src="image/news__2.jpg" alt="">
                     <div class="last__news__content__underimg">
                         <h5 class="h5__border">Newsletter</h5>
@@ -434,7 +427,7 @@
                     </div>
                 </div>
 
-                <div class="last__news__content">
+                <div class="last__news__content element-animation">
                     <img src="image/news__3.jpg" alt="">
                     <div class="last__news__content__underimg">
                         <h5 class="h5__border">Newsletter</h5>
@@ -448,7 +441,7 @@
             </div>
 
             <div class="last__news__under">
-                <p>Check out more of our crypto news</p>
+                <p><b>Check out more of our crypto news</b></p>
                 <div class="last__news__under__media">
                     <div>
                         <img src="image/twitter.png" alt="">
@@ -489,6 +482,9 @@
             </div>
         </section>
 
+        <section class="upward">
+            <img src="image/up.svg" alt="">
+        </section>
 
         <footer class="footer">
             <div class="logo-holder-footer">
@@ -500,7 +496,7 @@
             <div class="footer__container">
                 <div class="footer__content">
                     <h6>About</h6>
-                    <a href="#">About us</a>
+                    <a href="#" class="underline-one">About us</a>
                     <a href="#">Mobile app</a>
                     <a href="#">Staking</a>
                     <a href="#">Self Managed Super Funds</a>
@@ -557,6 +553,7 @@
             </div>
 
         </footer>
+
 
         <script src="js/main.js"></script>
     </main>
