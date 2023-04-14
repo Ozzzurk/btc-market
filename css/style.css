@@ -459,13 +459,13 @@ body._touch .menu__list > li.active .pointer img {
 }
 
 .crypto__button__buy {
-    margin-left: 5%;
-    padding: 12% 18%;
+    padding: 15px 25px;
     color: black;
     border: solid 2px #4CFDC7;
     border-radius: 15%;
     background-color: #4CFDC7;
     transition: 0.35s;
+    cursor: pointer;
 }
 
 .crypto__button__buy:hover {
@@ -530,7 +530,8 @@ body._touch .menu__list > li.active .pointer img {
         font-size: 16px;
     }
     .crypto__table tr td a button {
-        font-size: 20px;
+        font-size: 16px;
+        padding: 5px 15px;
     }
 }
 
