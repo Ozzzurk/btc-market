@@ -649,6 +649,10 @@ body._touch .menu__list > li.active .pointer img {
     }
     .TRADE__left__container {
         display: block;
+        width: 95%;
+    }
+    .TRADE__left__content {
+        width: 100%;
     }
     .TRADE__left__content__title img {
         width: 24px;
@@ -662,8 +666,6 @@ body._touch .menu__list > li.active .pointer img {
     }
     .TRADE__left__content__title {
         width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
     }
 }
 
@@ -726,10 +728,12 @@ body._touch .menu__list > li.active .pointer img {
     }
     .WALLET__right__container {
         display: block;
+        width: 95%;
+    }
+    .WALLET__right__content {
+        width: 100%;
     }
     .WALLET__right__content__title {
-        text-align: center;
-        margin: 10px;
     }
     .WALLET__right__content__title img {
         width: 24px;
