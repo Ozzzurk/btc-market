@@ -264,7 +264,6 @@ body._touch .menu__list > li.active .pointer img {
     }
     .menu__link {
         font-size: 24px;
-
     }
 
     .menu__link:hover {
@@ -275,6 +274,8 @@ body._touch .menu__list > li.active .pointer img {
         flex: 1 1 100%;
         margin: 20px 0 0 0;
         display: none;
+        left: 0;
+        text-align: left;
     }
     .menu__sub-link {
         font-size: 24px;
@@ -284,6 +285,7 @@ body._touch .menu__list > li.active .pointer img {
         font-size: 24px;
         display: block;
     }
+
 }
 
 .vect-img{
