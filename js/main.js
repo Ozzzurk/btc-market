@@ -43,14 +43,16 @@ if (isMobile.any()) {
 
 //Меню для смартфонов
 const iconMenu = document.querySelector('.menu__icon');
-const rem = document.querySelector('.remove__list')
+const rem = document.querySelectorAll('.remove__list')
 if(iconMenu) {
     const menuBody = document.querySelector('.menu__body');
     iconMenu.addEventListener("click", function (e) {
         document.body.classList.toggle('lock');
         iconMenu.classList.toggle('active');
         menuBody.classList.toggle('active');
-        rem.classList.remove('active');
+        for(var i = 0; i < rem.length; i++) {
+            rem[i].classList.remove('active');
+        }
     });
 }
 
