@@ -647,12 +647,26 @@ body._touch .menu__list > li.active .pointer img {
         width: 90%;
         object-fit: cover;
     }
+    .TRADE__left__content img {
+        width: 24px;
+        height: 24px;
+    }
+    .TRADE__left__content h4 {
+        display: inline-block;
+    }
     .WALLET__left {
         width: 100%;
     }
     .WALLET__left img {
         width: 90%;
         object-fit: cover;
+    }
+    .WALLET__right__content img {
+        width: 24px;
+        height: 24px;
+    }
+    .WALLET__right__content h4 {
+        display: inline-block;
     }
 }
 
