@@ -264,6 +264,11 @@ body._touch .menu__list > li.active .pointer img {
     }
     .menu__link {
         font-size: 24px;
+
+    }
+
+    .menu__link:hover {
+        text-decoration: none;
     }
     .menu__sub-list {
         position: relative;
