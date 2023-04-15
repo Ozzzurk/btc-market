@@ -653,15 +653,18 @@ body._touch .menu__list > li.active .pointer img {
     .TRADE__left__content__title img {
         width: 24px;
         height: 24px;
+        vertical-align: middle;
     }
     .TRADE__left__content__title h4 {
         display: inline-block;
+        padding: 0px;
+        vertical-align: middle;
     }
     .TRADE__left__content__title {
         width: 100%;
         text-align: center;
+        margin-bottom: 10px;
     }
-
 }
 
 .WALLET {
@@ -726,13 +729,17 @@ body._touch .menu__list > li.active .pointer img {
     }
     .WALLET__right__content__title {
         text-align: center;
+        margin: 10px;
     }
     .WALLET__right__content__title img {
         width: 24px;
         height: 24px;
+        vertical-align: middle;
     }
     .WALLET__right__content__title h4 {
         display: inline-block;
+        padding: 0px;
+        vertical-align: middle;
     }
     .WALLET__right__content__text {
     }
