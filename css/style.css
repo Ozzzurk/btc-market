@@ -164,8 +164,6 @@ body._touch .menu__list > li.active .pointer img {
     height: 8.5px;
 }
 
-
-
 .menu__list li .pointer img {
     margin-left: 5px;
 }
@@ -1070,6 +1068,12 @@ footer {
 .footer__list .pointer {
     visibility: hidden;
     opacity: 0;
+}
+
+@media (min-width: 992px) {
+    .footer__sub-content:hover {
+        text-decoration: underline;
+    }
 }
 
 @media (max-width: 992px) {
