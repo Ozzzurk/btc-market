@@ -647,27 +647,21 @@ body._touch .menu__list > li.active .pointer img {
         width: 90%;
         object-fit: cover;
     }
-    .TRADE__left__content img {
+    .TRADE__left__container {
+        display: block;
+    }
+    .TRADE__left__content__title img {
         width: 24px;
         height: 24px;
     }
-    .TRADE__left__content h4 {
+    .TRADE__left__content__title h4 {
         display: inline-block;
     }
-    .WALLET__left {
+    .TRADE__left__content__title {
         width: 100%;
+        text-align: center;
     }
-    .WALLET__left img {
-        width: 90%;
-        object-fit: cover;
-    }
-    .WALLET__right__content img {
-        width: 24px;
-        height: 24px;
-    }
-    .WALLET__right__content h4 {
-        display: inline-block;
-    }
+
 }
 
 .WALLET {
@@ -716,6 +710,31 @@ body._touch .menu__list > li.active .pointer img {
     }
     .WALLET__right__content h4 {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .WALLET__left {
+        width: 100%;
+    }
+    .WALLET__left img {
+        width: 90%;
+        object-fit: cover;
+    }
+    .WALLET__right__container {
+        display: block;
+    }
+    .WALLET__right__content__title {
+        text-align: center;
+    }
+    .WALLET__right__content__title img {
+        width: 24px;
+        height: 24px;
+    }
+    .WALLET__right__content__title h4 {
+        display: inline-block;
+    }
+    .WALLET__right__content__text {
     }
 }
 
