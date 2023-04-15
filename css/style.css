@@ -164,6 +164,12 @@ body._touch .menu__list > li.active .pointer img {
     height: 8.5px;
 }
 
+
+
+.menu__list li .pointer img {
+    margin-left: 5px;
+}
+
 @media (min-width: 992px) {
     .menu__list {
         display: flex;
@@ -178,6 +184,9 @@ body._touch .menu__list > li.active .pointer img {
         visibility: hidden;
         pointer-events: none;
         transition: all 0.3s ease 0s;
+    }
+    .pointer {
+        cursor: pointer;
     }
 }
 
@@ -284,6 +293,9 @@ body._touch .menu__list > li.active .pointer img {
         margin: 0 0 20px 0;
         font-size: 24px;
         display: block;
+    }
+    .menu__body {
+        overflow-x: hidden;
     }
 
 }
@@ -1053,6 +1065,11 @@ footer {
 
 .footer__sub-content a {
     color: black;
+}
+
+.footer__list .pointer {
+    visibility: hidden;
+    opacity: 0;
 }
 
 @media (max-width: 992px) {
