@@ -526,6 +526,9 @@ body._touch .menu__list > li.active .pointer img {
         font-size: 16px;
         padding: 5px 15px;
     }
+    .crypto__table tr td img {
+        padding-top: 5px;
+    }
 }
 
 .why__BTC {
