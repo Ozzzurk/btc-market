@@ -1065,12 +1065,13 @@ footer {
     color: black;
 }
 
-.footer__list .pointer {
-    visibility: hidden;
-    opacity: 0;
-}
+
 
 @media (min-width: 992px) {
+    .footer__list .pointer {
+        visibility: hidden;
+        opacity: 0;
+    }
     .footer__sub-content:hover {
         text-decoration: underline;
     }
@@ -1101,6 +1102,9 @@ footer {
     }
     body._touch .footer__ul > li.active .pointer img {
         transform: rotate(-180deg);
+    }
+    .footer__list img {
+        margin-left: 5px;
     }
 }
 
